@@ -1,0 +1,51 @@
+Arguments: 
+  D:\software-family\nodejs\node.exe D:\software-family\node\global\node_modules\yarn\bin\yarn.js add antd babel-plugin-import --save
+
+PATH: 
+  C:\Users\84938\bin;D:\software-family\Git\mingw64\bin;D:\software-family\Git\usr\local\bin;D:\software-family\Git\usr\bin;D:\software-family\Git\usr\bin;D:\software-family\Git\mingw64\bin;D:\software-family\Git\usr\bin;C:\Users\84938\bin;D:\software-family\Python\Python37-32\Scripts;D:\software-family\Python\Python37-32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;D:\software-family\Java\jdk-10.0.1\bin;D:\software-family\Java\jdk-10.0.1\jre\bin;D:\software-family\nvm;D:\software-family\nodejs;C:\Program Files\Microsoft VS Code\bin;D:\software-family\mysql\bin;D:\software-family\MongoDB\bin;D:\software-family\redis;D:\software-family\node\global;D:\software-family\yarn\global\node_modules\.bin;D:\software-family\TortoiseSVN\bin;C:\Users\84938\AppData\Local\Microsoft\WindowsApps;D:\software-family\nvm;D:\software-family\nodejs;D:\software-family\Microsoft VS Code\bin;D:\software-family\Microsoft VS Code Win\bin;D:\software-family\Microsoft VS Code Insiders\bin;D:\software-family\JetBrains\PyCharm 2019.2\bin;C:\Users\84938\AppData\Local\GitHubDesktop\bin;D:\software-family\Git\usr\bin\vendor_perl;D:\software-family\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.17.3
+
+Node version: 
+  12.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\84938\AppData\Local\Yarn\Cache\v4\npm-make-dir-2.1.0-5f0310e18b8be898cc07009295a30ae41e91e6f5\node_modules\make-dir\index.js' -> 'H:\Upan\bamboo\learning\react\dva\node_modules\af-webpack\node_modules\make-dir\index.js'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "start": "roadhog server",
+      "build": "roadhog build",
+      "lint": "eslint --ext .js src test",
+      "precommit": "npm run lint"
+    },
+    "dependencies": {
+      "dva": "^2.4.1",
+      "react": "^16.2.0",
+      "react-dom": "^16.2.0"
+    },
+    "devDependencies": {
+      "babel-plugin-dva-hmr": "^0.3.2",
+      "eslint": "^4.14.0",
+      "eslint-config-umi": "^0.1.1",
+      "eslint-plugin-flowtype": "^2.34.1",
+      "eslint-plugin-import": "^2.6.0",
+      "eslint-plugin-jsx-a11y": "^5.1.1",
+      "eslint-plugin-react": "^7.1.0",
+      "husky": "^0.12.0",
+      "redbox-react": "^1.4.3",
+      "roadhog": "^2.5.0-beta.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
