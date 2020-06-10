@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "dva";
 import { Table } from "antd";
+import { Link } from "dva/router";
 
 const columns = [
   {
@@ -20,7 +21,7 @@ const columns = [
   },
 ];
 
-@connect(({ example }) => ({ example }), {
+@connect((state) => ({ state, example: state.example }), {
   getProductData: (payload) => ({ type: "example/getProductData", payload }),
 })
 class Example extends Component {
@@ -38,6 +39,7 @@ class Example extends Component {
         <h3>Example</h3>
         <button onClick={this.dataSearch}>search</button>
         <Table columns={columns} dataSource={data} rowKey="id" />
+        <Link to="/user">go user</Link>
       </div>
     );
   }
